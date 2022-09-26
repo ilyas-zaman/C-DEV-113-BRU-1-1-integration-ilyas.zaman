@@ -1,0 +1,317 @@
+@media all and (max-width: 600px)
+{
+    *{
+        font-family: avenir, roboto;
+        
+    }
+
+    .container {
+    
+        
+        display: flex;
+        justify-content: space-between;
+        margin-left: 80px;
+        margin-right: 80px;
+        
+        /*flex-wrap: wrap;*/
+        
+    }
+
+.nav{
+    display: none;
+}
+
+
+
+    .sub_container_one {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        align-items: center;
+        
+        /*margin-left: 50px;*/
+    }
+    .cart_button
+    {
+        width: 40px;
+    }
+    
+    
+    .sub_container_two {
+        display: flex;
+        justify-content: space-between;
+        width: 15%;
+        align-items: center;
+    }
+    
+    
+    
+    .input_one {
+        border:none;
+        width: 600px;
+    }
+    
+    .search_bar {
+        
+        display: flex;
+        /*justify-content: space-between;*/
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 25px;
+        flex-wrap: wrap;
+    }
+    
+    .bar {
+        display: flex;
+        justify-content: space-between;
+        /*border-bottom: 0.8px solid black;*/
+        align-items: center;
+        width: 800px;
+    }
+    .loupe
+    {
+        display: none;
+       /*margin-left: 27px;
+       */
+    }
+    
+    .star {
+        display: none;
+        /*
+        display: flex;
+        align-items: center;
+        */
+    }
+    
+    .match {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    .powered {
+        margin-right: 12px;
+        font-size: 80%;
+        
+    }
+
+    .star_mobile
+    {
+        display:flex;
+        margin-left: 40%;
+        padding-left: 12%;
+        padding-top: 2%;
+    }
+    
+    
+    .star_container {
+        padding-top: 3px;
+    
+    }
+    
+    .living_room input
+    {
+        outline: none;
+        width: 100%;
+        font-size: 150%;
+        font-weight: bold;
+        padding-bottom: 4%;
+        
+        
+    }
+    .living_room
+    {
+        border-bottom: 2px solid black;
+    }
+    
+    .select {
+        display: none;
+        /*
+        width: 200px;
+        border: none;
+        font-size: large;
+        */
+    }
+    
+    .image
+    {
+        display:flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-left:8%;
+        
+    }
+
+    
+    
+    .div_for_images
+    {
+        width: 250px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    
+    }
+
+    .div_for_filters
+    {
+        display:none;
+        /*width: 250px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        */
+    
+    }
+
+    
+    .div_for_filters_mobile
+    {
+        width: 250px;
+       
+    
+    }
+    
+    .select_image_mobile
+    {
+        border: none;
+        width: 250px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid lightgray;
+        font-size: 19px;
+    }
+
+
+    .details {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .title {
+        padding-left: 5px;
+        font-weight: bold;
+    
+    }
+    
+    
+    .sub_title {
+        padding-left: 5px;
+        font-size: 10px;
+        margin-top: 5px;
+        color: rgba(0, 0, 0, 0.363);
+    }
+    .details_etoiles
+    {
+        margin-top:5px;
+        padding-left: 5px;
+    }
+    .CartPlus
+    {
+        margin-top: 15px;
+        padding-left: 17px;
+    }
+    .filter
+    {
+        width: 300px;
+        margin-bottom: 30px;
+        color: rgba(0, 0, 0, 0.363);
+        padding-left: 10px;
+    
+    
+    }
+    .select_image
+    {
+        border: none;
+        width: 250px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid lightgray;
+        font-size: 12px;
+    }
+    .range_place
+    {
+       
+        padding-left:5px;
+        
+        
+    }
+    .range
+    {
+        width: 240px;
+    }
+    
+    .prix
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 270px;
+       
+    }
+    .price_range
+    {
+        padding-bottom: 20px;
+        font-size: 12px;
+        padding-left: 10px;
+        
+    }
+    .pages
+    {
+        display: flex;
+        justify-content:space-between;
+        width: 48%;
+        margin-bottom: 15px;
+        margin-right: 80px;
+        margin-left: 80px;
+        padding-left: 8%;
+    
+    }
+    .pages div {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        padding-top: 9px;
+
+    }
+    
+    .pages div:hover
+    {
+        background-color: black;
+        color: white;
+    
+    
+    }
+    .page_mobile
+    {
+        display: none;
+    }
+
+    .burger {
+
+    
+    
+    background-color: black;
+    
+}
+
+
+.bars
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    width: 15%;
+    
+    
+
+}
+.bars button
+{
+    margin-top: 5px;
+    width: 60%;
+    height: 1px;
+    
+}
+    
+}
